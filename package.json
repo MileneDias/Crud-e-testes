@@ -1,0 +1,27 @@
+{
+  "name": "aula-50",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/server.js",
+    "test": "jest -i"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@sucrase/jest-plugin": "^2.1.0",
+    "@types/jest": "^26.0.23",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0",
+    "sucrase": "^3.18.1",
+    "supertest": "^6.1.3"
+  }
+}
